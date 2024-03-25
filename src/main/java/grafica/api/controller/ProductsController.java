@@ -19,6 +19,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 @RestController
 @RequestMapping("product")
 public class ProductsController {
+
     @Autowired
     private ProductRepository repository;
 
